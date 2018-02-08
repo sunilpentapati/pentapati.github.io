@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
+title: Sunil Pentapati
 twitter_username: rob_hinds
-name: Rob Hinds
+name: Sunil pentapati
 
 # Build settings
 markdown: kramdown
@@ -10,55 +10,99 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://automateddeveloper.blogspot.com/
+   url: http://pentapati.blogspot.com
  - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: https://github.com/sunilpentapati
  - title: LinkedIn
-   url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
+   url: https://www.linkedin.com/in/pentapati
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
- - Java
- - JPA
- - SQL
- - REST
+ - Product Strategy
+ - Software Engineering
+ - Agile Leadership
+ - Digital Transformation
+ - SaaS/Cloud Operations
+ - Platform/Infrastructure Engineering
+ - DevOps
+ - DevSecOps
+ - Multi-tenant SaaS authentication and authorization
+ - Continuous Integration, Continuous Deployment, Continuous Delivery, Canary Deployments
+ - High availability, disaster tolerance
  - Tech Architecture
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
+#blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Director, Platform Operations
+   start: 207
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
+   employer: Fractal Industries
+   description: Fractal provides the premier collaborative decision-support platform to address the world's most demanding problems. Our unique blend of data analytics-as-a-service enhanced with next-generation simulation modeling, deep learning, and artificial intelligence capabilities enables robust decision-making in an increasingly uncertain, complex and competitive world. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, DC/OS, a variety of Machine Learning techniques.
+ - title: Head, DevOps Engineering
+   start: 2014
+   end: 2017
+   employer: EMC Corp
+   description: Software Development, DevOps, EngOps, Security, Service Delivery@Scale
+ - title: Sr, Manager Engineering
    start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
+   end: 2014
+   employer: Constant Contact
+   description: SaaS, Development Operations, Technical Operations
+ - title:  Manager Engineering
+   start: 2007
    end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
+   employer: RSA, Security Division of EMC
+   description: Application Development, Global Development Operations, Infrastructure Engineering
+ - title:  Staff Engineer
+   start: 2005
+   end: 2007
+   employer: IBM
+   description: 
+ - title:  Sr. Software Engineer
+   start: 2003
+   end: 2005
+   employer: RSA
+   description: 
+ - title:  Consultant
+   start: 2003
+   end: 2003
+   employer: Capital One
+   description: 
+ - title:  Sr. Software Engineer
+   start: 1999
+   end: 2002
+   employer: Sybase
+   description: Lead Release Engineering for PowerBuilder 8.0
+ - title:  Consultant Developer
+   start: 1997
+   end: 1999
+   employer: Autozone
+   description: On-Site Lead and played a critical role in the Design, and Development of Auto-zone's corporate application systems.
+ - title:  Sr. Software Engineer
+   start: 1995
+   end: 1997
+   employer: NIIT
+   description: Systems engineer at NIIT’S Business Solutions Group developing & providing support for PowerBuilder and Sybase SQL Server products
+
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: Executive Education
+   date: 2015
+   subject: Executive Certificate in Management & Leadership
+   school: MIT
+ - level: Master of Business Adminisration (MBA)
+   date: 2011
+   subject: Strategy, Innovation, Leadership
+   school: Olin School of Business, Babson College
+ - level: Master of Science (M.Sc.)
+   date: 1997
+   subject: Computer Science
+   school: Andhra University
+
 
 #This section is optional (as is the image link below)
 coursera:
@@ -75,36 +119,5 @@ coursera:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/learning-neural-networks
- - robhinds/akka-http-rest-api-sample
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/food2vec
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
-
-#Stackoverflow flair is optional
-stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
-
-#Mobile apps section is optional
-apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
-
-#An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate and EclipseLink) in addition to others.  In my current role Groovy is the primary language used - and I am familiar with many of the languages features and quirks (including writing <a target='_blank' href="https://dzone.com/articles/functional-programming-groovy">Functional Programming style groovy</a>). <br/><br/>
-   <strong>Web Development</strong>: My server side web development experience has largely been based on the Spring MVC framework (although current role uses ColdFusion for server side web stack). I have also worked with some client side technology, having used jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Backbone/Underscore/Require.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability, I created, and am now primary contributor to, two Spring projects - <a target='_blank' href="https://github.com/robhinds/spring-social-geeklist">Spring-Social-Geeklist</a> and <a target='_blank' href="https://github.com/nerdability/spring-social-khan-academy">Spring-Social-Khan-Academy</a>, which provide core integration with those third-party APIs on top of the Spring Social framework. They are both listed as community projects: <a target='_blank' href="http://projects.spring.io/spring-social/">http://projects.spring.io/spring-social/</a>. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="http://automateddeveloper.blogspot.com/">automateddeveloper.blogspot.com</a> (I am also a <a target='_blank' href="https://dzone.com/users/899489/rhinds.html">DZone MVB</a>)
+ - sunilpentapati/kafka-manager
+ - sunilpentapati/osquery-configuration
