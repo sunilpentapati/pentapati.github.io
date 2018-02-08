@@ -118,3 +118,5 @@ coursera:
 github:
  - sunilpentapati/kafka-manager
  - sunilpentapati/osquery-configuration
+
+theme: jekyll-theme-architect
